@@ -1,1 +1,1 @@
-# projetos_dev
+Projetos para aprendizado HTML5 e CSS3
