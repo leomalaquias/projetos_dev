@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adicionando imagens em documento html5</title>
+</head>
+<body>
+  <h1>Adicionando imagens em documento HTML5</h1>
+  <hr>
+  <p>Para adicionar imagens em um documento HTML, você pode usar a tag <code>&lt;img&gt;</code>.</p>
+  <p>A tag <code>&lt;img&gt;</code> é usada para incorporar imagens em uma página web. Ela não possui uma tag de fechamento, pois é uma tag auto-fechante.</p>
+  <p>Você pode especificar o caminho da imagem usando o atributo <code>src</code> e fornecer um texto alternativo usando o atributo <code>alt</code>.</p>
+  <hr>
+  <p>Para que seja possível selecinonar a imagem com o comando <code>img</code> quando colocamos o comando com o atributo <code>src</code><br> Conseguimos o segunte resultado:</p>
+  <pre>
+    &lt;img src="caminho/para/sua/imagem.jpg" alt="Descrição da imagem"&gt; 
+  </pre>
+  <p>Onde em <code>"caminho/para/sua/imagem.jpg"</code> entre as aspas, podemos utilizar as teclas ctrl + espaço para selecionar o caminho da imagem que queremos adicionar.<br> O atributo <code>alt</code> é importante, pois quando a imagem não puder ser exibida ou for realizado uma descrição por questões de acessibilidade será exibido a mensagem contida no atributo <code>alt</code></p>
+  <hr>
+  <p>Por exemplo, para adicionar uma imagem chamada <code>imagem.jpg</code> localizada na mesma pasta do arquivo HTML, você pode usar o seguinte código:</p>
+  <pre>
+    &lt;img src="imagem.jpg" alt="Descrição da imagem"&gt;
+  </pre>
+  <p>Se a imagem estiver em uma subpasta chamada <code>imagens</code>, você pode especificar o caminho relativo assim:</p>
+  <pre>
+    &lt;img src="imagens/imagem.jpg" alt="Descrição da imagem"&gt;
+  </pre>
+  <p>Você também pode ajustar o tamanho da imagem usando os atributos <code>width</code> e <code>height</code>. Por exemplo:</p>
+  <pre>
+    &lt;img src="imagens/imagem.jpg" alt="Descrição da imagem" width="300" height="200"&gt;
+  </pre>
+  <p>Isso irá redimensionar a imagem para 300 pixels de largura e 200 pixels de altura.</p>
+  <hr>
+  <p>Abaixo estão mostrados os exemplos de cada um dos itens acima</p>
+  <br>
+  <pre>
+    &lt;img src="imagens/logo_html_full.png" alt="Logo HTML"&gt;
+  </pre>
+  <img src="imagens/logo_html_full.png" alt="Logo HTML">
+  <br>
+  <pre>
+    &lt;img src="imagens/logo_css_full.png" alt="Logo CSS"&gt;
+  </pre>
+  <img src="imagens/logo_css_full.png" alt="Logo CSS">
+  <br>
+  <pre>
+    &lt;img src="imagens/logo_html_full.png" alt="Logo HTML" width="300" height="200"&gt;<br>
+    e<br>
+    &lt;img src="imagens/logo_css_full.png" alt="Logo CSS" width="300" height="200"&gt;
+  </pre>
+  <img src="imagens/logo_html_full.png" alt="Logo HTML" width="300" height="200">
+  <img src="imagens/logo_css_full.png" alt="Logo CSS" width="300" height="200">
+  <p>Sabendo esses atributos citador por último podemos alterá-los para que seja possível obter imagens que estejam adequadar e sem distorção</p>
+<img src="imagens/logo_html_full.png" alt="Logo HTML" width="375" height="200">
+  <hr>
+  <p>as imagens podem ser editadas também para o formato desejado antes de serem colocadas no código, por aplicações como GIMP, Adobe Photoshop e Corel Draw</p>
+  <hr>
+  <p>Para mais informações sobre a tag <code>&lt;img&gt;</code>, você pode consultar a documentação oficial do HTML5.</p>
+  <p>Link: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/img" target="_blank">MDN Web Docs - Elemento img</a></p>
+  <hr>
+</body>
+</html>
