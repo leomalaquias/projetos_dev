@@ -60,5 +60,17 @@
   <p>Para mais informações sobre a tag <code>&lt;img&gt;</code>, você pode consultar a documentação oficial do HTML5.</p>
   <p>Link: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/img" target="_blank">MDN Web Docs - Elemento img</a></p>
   <hr>
+  <p>Outra possibilidade é copiar o endereço de uma inagem da web para que seja adicionada a código, para isso devemos copiar o endereço da imagem que desejamos adicionar ao código (importante procurar uma imagem com o tamanho final desejado ou redimensioná-la utilizando os atributos <code>width</code> e <code>height</code>), esse processo pode ser realizado através do comando:</p>
+  <pre>
+    &lt;img src="endereço da imagem" alt="Descrição da imagem"&gt;<br>
+    &lt;img src="https://cdn.iconscout.com/icon/free/png-256/free-javascript-2038874-1720087.png" alt="Logo JavaScript"&gt;
+  </pre>
+  <img src="https://cdn.iconscout.com/icon/free/png-256/free-javascript-2038874-1720087.png" alt="Logo JavaScript">
+  <p>Para deixar a mesma altura das outras imagens podemos utilizar os atributos <code>width</code> e <code>height</code></p>
+  <pre>
+    &lt;img src="https://cdn.iconscout.com/icon/free/png-256/free-javascript-2038874-1720087.png" alt="Logo JavaScript" width="200" height="200"&gt;
+  </pre>
+  <img src="https://cdn.iconscout.com/icon/free/png-256/free-javascript-2038874-1720087.png" alt="Logo JavaScript" width="200" height="200">
+  <p>A logo do JavaScript não se igualou ao tamanho das outras uma vez que as margens transparentes da imagem são diferentes para as 3 imagens, por isso é importante que sejam editadas as imagens anteriormente ou que sejam alteradas via <code>width</code> e <code>height</code> ou ainda via CSS para que se adequem ao site e seja obtido uma estrutura visual simétrica.</p>
 </body>
 </html>
