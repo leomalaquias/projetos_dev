@@ -3,33 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Outras ormatações</title>
+  <title>Listas</title>
 </head>
 <body>
-  <h1>Outras formatações</h1>
-  <h2>Código fonte/pré-formatação</h2>
-  <p>O comando <code>document.getElementeById('teste')</code> é escrito em linguagem JavaScript</p>
-  <p>o comando <code>code</code> serve para deixar as letras do comando mais fáceis de ler, ficando monoespaçadas</p>
-  <pre>
-    <p><code>num = int(input('Digite um número'))
-  if num % 2 == 0:
-  print('O número é par')
-  else:
-  print('O número é ímpar')
-  print('Fim do programa')
-    </code></p>
-  </pre>
-  <h2>Citações</h2>
-  <p>Como diria o pai de um amigo <q>o computador é um burro muito rápido</q></p>
-  <h2>Citações completas</h2>
-  <p>Segundo Jeff Noble, no seu livro HTML para leigos</p>
-  <blockquote cite="https://www.amazon.com.br/HTML-para-Leigos-Jeff-Noble/dp/8545200012">
-    Adiferença entre elementos inline e um bloco de texto é importante.
-  </blockquote>
-  <h2>Abreviações</h2>
-  <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
-  <h2>Texto invertido</h2>
-  <p><bdo dir="rtl">estou aprendendo a criar coisas em HTML</bdo></p>
-   <p><bdo dir="ltr">estou aprendendo a criar coisas em HTML</bdo></p>
+  <h1>Trabalhando com listas</h1>
+  <h2>Listas ordenadas</h2>
+  <ol>
+    <li>Primeiro item</li>
+    <li>Segundo item</li>
+    <li>Terceiro item</li>
+    <li>Quarto item</li>
+    <li>Quinto item</li>
+  </ol>
+  <h2>Listas não ordenadas</h2>
+  <ul>
+    <li>Primeiro item</li>
+    <li>Segundo item</li>
+    <li>Terceiro item</li>
+    <li>Quarto item</li>
+    <li>Quinto item</li>
+  </ul>
+  <h2>Listas de definição</h2>
+  <p></p>
+  <dl>
+    <dt>HTML</dt>
+    <dd>É uma linguagem de marcação para criar páginas web.</dd>
+    <dt>CSS</dt>
+    <dd>É uma linguagem de estilo usada para descrever a apresentação de documentos HTML.</dd>
+    <dt>JavaScript</dt>
+    <dd>É uma linguagem de programação que permite implementar funcionalidades complexas em páginas web.</dd>
+    <dt>Python</dt>
+    <dd>É uma linguagem de programação de alto nível, amplamente utilizada para desenvolvimento web, automação e ciência de dados.</dd>
+  </dl>
+    <ol type="a" start="6"><!--1 A a I i-->
+    <li>tipo 1</li>
+    <li>tipo a</li>
+    <li>tipo I</li>
+    <li>tipo A</li>
+  </ol>
+  <ul type="square"><!--disc circle square-->
+    <li>tipo disc</li>
+    <li>tipo circle</li>
+    <li>tipo square</li>
+  </ul>
+  <h2>Minhas linguagens favoritas</h2>
+  <ol>
+    <li>Antigas</li>
+    <ol type="a">
+      <li>Clipper</li>
+      <li>Visual Basic</li>
+      <li>Fortran</li>
+      <li>Delphi</li>
+    </ol>
+    <li>Novas</li>
+    <ol type="a" start="5">
+      <li>PHP</li>
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>Kotlin</li>
+    </ol>
+  </ol>
+  <h2>Minhas linguagens favoritas</h2>
+  <ul>
+    <li>Antigas</li>
+    <ul type="a">
+      <li>Clipper</li>
+      <li>Visual Basic</li>
+      <li>Fortran</li>
+      <li>Delphi</li>
+  </ul>
+    <li>Novas</li>
+    <ul type="a" start="5">
+      <li>PHP</li>
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>Kotlin</li>
+    </ul>
+  </ul>
 </body>
-</html>
+</htl>
